@@ -1,9 +1,9 @@
 services:
   app:
-    container_name: node
     build: .
     ports:
       - "3000:3000"
     environment:
       - MONGO_URI=mongodb+srv://alaypatel212_db_user:elG3KwGrOZZzBw8q@bloodbond.kv5cktk.mongodb.net/?appName=BloodBond
     restart: always
+
